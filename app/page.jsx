@@ -5,16 +5,15 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-gray-900 text-white">
-      {/* Hero Section */}
+
       <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-90"></div>
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen">
-        {/* Logo */}
+
         <h1 className="text-6xl font-bold mb-8">
           <span className="text-blue-500">Card</span>
           <span className="text-purple-400">.io</span>
         </h1>
 
-        {/* Subtitle */}
         <p className="text-lg text-gray-300 mb-12 max-w-md text-center">
           Speel kaartspellen met vrienden waar en wanneer je wilt. Maak een lobby of sluit aan bij een game!
         </p>
